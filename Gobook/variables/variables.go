@@ -2,12 +2,10 @@ package main
 
 import "fmt"
 
-
-
 func main() {
 	fmt.Println("\n1 + 1032 = ", 1+1032)
 	fmt.Println("1.2 + 1032.7 = ", 1.2+1032.7)
-	var x string = "Yo decidio de eligir a tuyo"
+	var x string = "Yo decidio eligir a tuyo"
 	fmt.Println(x)
 	x = "first"
 	fmt.Println(x)
@@ -28,6 +26,6 @@ func main() {
 
 var dogsName = "Rex"
 
-func f()  {
+func f() {
 	fmt.Println("That dog's name is", dogsName)
 }

@@ -1,7 +1,7 @@
-package gholla
+package main
 
 import "fmt"
 
-func sayHello() {
+func main() {
 	fmt.Println("Hola a mi Ghola!")
 }
